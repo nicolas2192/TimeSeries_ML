@@ -51,7 +51,7 @@ Written in python 3. Main modules:
 
 
 ## :information_source: Data info
-There are 4 different datasets available in the data folder (t1, t2, t3, and t4). Each one is comprised of two columns; **date** and **value**.
+There are 4 different datasets available in the data folder (t1, t2, t3, and t4). Each one is comprised of two columns; **date** and **vals**.
 
 <p align="center">
   <img width="152" height="164" src="readme/dataset_example.png">
