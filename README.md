@@ -2,7 +2,7 @@
 
 Being able to forecast your data accurately is an essential skill nowadays. Getting the trend right is not enough, you need to be able to predict future values with a very low margin error. This repo addresses this situation, we will see how using a complex model instead of a simple linear regression we can improve our predictions without impairing the processing time significantly.
 
-### :deciduous_tree: Let's grow some trees
+## :deciduous_tree: Let's grow some trees
 
 The idea behind this implementation was to improve an already existing predictive model. The original model worked ok with datasets that didn't exhibit any seasonality but failed to predict seasonal time series. This problem was solved by implementing a new Random Forest Regressor model.
 Here we can see how the new model (green line) better fits the data.
@@ -11,7 +11,7 @@ Here we can see how the new model (green line) better fits the data.
   <img width="1027" height="805" src="readme/lr_rf_comparison.png">
 </p>
 
-**Feature engineering, is it worth it?**
+## :boom: Feature engineering, is it worth it?
 
 Short answer, yes. It's clear that complex algorithms will perform better than simpler ones (some exceptions apply), however, one must not forget that feature engineering is the tool that gives us a performance edge. Data science is not just about using the most convoluted algorithms, it is about understanding the data and spotting not-so-obvious patterns to create new features that will improve any model's performance. The next two charts set side by side the same Random Forest model with and without feature engineering.
 
@@ -40,7 +40,7 @@ Notice that the Random Forest outperforms the Simple Linear Regression in the la
 Check every dataset's performance either by downloading and running the notebook or just by heading to the charts folder and checking it there.
 
 
-### :computer: Technology stack
+## :computer: Technology stack
 Written in python 3. Main modules:
 
 **Pandas** -> Data manipulation, cleansing and analysis.
@@ -50,7 +50,7 @@ Written in python 3. Main modules:
 **Matplotlib** -> Charting and visualization.
 
 
-### :information_source: Data info
+## :information_source: Data info
 There are 4 different datasets in the data folder (t1, t2, t3, and t4). Each one is comprised of two columns; date and value.
 
 <p align="center">
