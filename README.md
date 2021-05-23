@@ -37,7 +37,7 @@ Notice that the Random Forest outperforms the Simple Linear Regression in the la
   <img width="268" height="143" src="readme/r2_acc.png">
 </p>
 
-Check every dataset's performance either by downloading and running the notebook or just by heading to the charts folder and checking it there.
+Check all datasets either by downloading and running the notebook or just by heading to the charts folder.
 
 
 ## :computer: Technology stack
