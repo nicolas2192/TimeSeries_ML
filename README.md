@@ -34,7 +34,7 @@ After running the model for 4 different datasets and computing the R2 error metr
 Notice that the Random Forest outperforms the Simple Linear Regression in the last 3 examples, however, when the data behaves like a line, you are better off using a Simple Linear Regression.
 
 <p align="center">
-  <img width="279" height="143" src="readme/r2_acc.png">
+  <img width="268" height="143" src="readme/r2_acc.png">
 </p>
 
 Check every dataset's performance either by downloading and running the notebook or just by heading to the charts folder and checking it there.
@@ -51,7 +51,7 @@ Written in python 3. Main modules:
 
 
 ## :information_source: Data info
-There are 4 different datasets in the data folder (t1, t2, t3, and t4). Each one is comprised of two columns; date and value.
+There are 4 different datasets available in the data folder (t1, t2, t3, and t4). Each one is comprised of two columns; **date** and **value**.
 
 <p align="center">
   <img width="152" height="164" src="readme/dataset_example.png">
